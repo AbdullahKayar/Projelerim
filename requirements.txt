@@ -1,0 +1,21 @@
+# FIFA 2022 World Cup Data Analysis
+# Python Dependencies
+
+# Core Data Analysis Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+
+# Optional: For enhanced visualizations (future use)
+# seaborn>=0.11.0
+# plotly>=5.0.0
+
+# Optional: For Jupyter notebook support (future use)
+# jupyter>=1.0.0
+# ipython>=7.0.0
+
+# Development Dependencies (install with: pip install -r requirements-dev.txt)
+# pytest>=6.0.0
+# black>=21.0
+# flake8>=3.9.0
+# mypy>=0.910
