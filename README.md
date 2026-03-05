@@ -738,9 +738,9 @@ Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LIC
 ## 📧 İletişim {#iletisim}
 
 **Proje Sorumlusu**: Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Profiliniz](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/AbdullahKayar)
+- LinkedIn: [Profiliniz](https://www.linkedin.com/in/abdullah-kayar-20b3233a3)
+- Email: abdullahkayar5231@gmail.com
 
 </div>
 
@@ -750,6 +750,5 @@ Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LIC
 
 ### ⭐ Star this repository if you find it helpful! | Bu depoyu faydalı bulursanız yıldızlayın! ⭐
 
-**Made with ❤️ and Python** | **Python ve ❤️ ile yapıldı**
-
 </div>
+
