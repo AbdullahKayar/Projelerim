@@ -1,55 +1,61 @@
 📊 Discord Data Warehouse & Analytics Bot
 
-🇹🇷 Türkçe Özet
+🇹🇷 Proje Özeti
 
 Bu proje, Discord sunucuları için geliştirilmiş gelişmiş bir Veri Ambarı ve OSINT botudur. Sunucudaki tüm mesaj trafiğini SQLite veritabanına işler, silinen/düzenlenen mesajları "Gölge Kayıt" olarak saklar ve yöneticilere CSV dökümü alma imkanı sunar.
 
-🌟 Öne Çıkanlar
-
-Veri Madenciliği: Tüm geçmiş mesajları ve medyaları otomatik olarak arşive çeker.
-
-Gölge Kayıt: Silinen mesajlar asla kaybolmaz, veritabanında saklanır.
-
-Otonom Raporlama: Her hafta sunucu aktiflik özetini otomatik olarak raporlar.
-
-RBAC Güvenliği: Rol bazlı yetkilendirme ile güvenli veri erişimi sağlar.
-
-🇬🇧 English Overview
+🇬🇧 Project Overview
 
 An advanced Data Warehouse and OSINT bot designed for Discord servers. It logs all message traffic into a local SQLite database, maintains shadow records of deleted/edited messages, and allows administrators to export data as CSV files for analysis.
 
-🌟 Key Features
+🚀 Quick Start Guide / Hızlı Başlangıç Rehberi
 
-Data Scraping: Automatically archives message history and media attachments.
+1. Clone the Project / Projeyi İndirin
 
-Shadow Logging: Deleted messages are never lost; they are stored securely in the DB.
+git clone [https://github.com/AbdullahKayar/Discord-Data-Bot.git](https://github.com/AbdullahKayar/Discord-Data-Bot.git)
+cd Discord-Data-Bot
 
-Autonomous Reporting: Sends weekly server activity summaries automatically.
 
-RBAC Security: Ensures secure data access with role-based permissions.
+2. Install Dependencies / Kütüphaneleri Kurun
 
-🛠️ Installation / Kurulum
+"Hangi kütüphaneleri kurmalıyım?" diye düşünmenize gerek yok. Tek komutla her şeyi hazırlayabilirsiniz:
 
-Clone the repo: git clone https://github.com/AbdullahKayar/Discord-Data-Bot.git
+pip install -r requirements.txt
 
-Install deps: pip install -r requirements.txt
 
-Setup environment: Create a .env file using the .env.example template.
+(Kurulanlar: discord.py, pandas, aiosqlite, python-dotenv)
 
-Configure IDs: Open main.py and enter your Discord Channel IDs.
+3. Configuration / Ayarlar
 
-Run: python main.py
+.env.example dosyasının adını .env olarak değiştirin.
 
-📫 Connect with me / Bana Ulaşın
+Bot token'ınızı dosyanın içine yapıştırın: DISCORD_TOKEN=your_token_here
 
-Proje hakkında sorularınız varsa veya iş birliği yapmak isterseniz bana aşağıdaki kanallardan ulaşabilirsiniz:
+4. Run / Çalıştırın
 
-LinkedIn: linkedin.com/in/AbdullahKayar
+python main.py
+
+
+🌟 Key Features / Öne Çıkan Özellikler
+
+Shadow Logging: Silinen ve düzenlenen mesajlar asla kaybolmaz, veritabanına yedeklenir.
+
+Autonomous Reporting: Her Pazar gecesi haftalık sunucu aktiflik raporu otomatik oluşturulur.
+
+Data Export: Tüm veriler pandas aracılığıyla profesyonel CSV formatına dönüştürülebilir.
+
+RBAC Security: Admin ve kullanıcı komutları kanal bazlı yetkilendirme ile korunur.
+
+🛡️ Security Warning / Güvenlik Uyarısı
+
+Bu bot verileri yerel (local) olarak saklar. Lütfen .env ve .db dosyalarınızı asla GitHub'da paylaşmayın. Bu proje, .gitignore ile bu dosyaları koruyacak şekilde yapılandırılmıştır.
+
+📫 Connect with me / İletişim
+
+LinkedIn: linkedin.com/in/abdullah-kayar
 
 GitHub: github.com/AbdullahKayar
 
-Email: abdullahkayar5231@gmail.com
+Email: abdullahkayar@email.com
 
-🛡️ Security & Privacy
-
-This bot keeps all data locally in server_archive.db. Never share your database file or .env token publicly on GitHub.
+Developed by Abdullah Kayar with ❤️ and Data Science principles.
